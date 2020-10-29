@@ -13,8 +13,8 @@ spec:
         app: DockerSampleConfig
     spec:
       containers:
-      - name: Containerr1
-        image: containerr1.azurecr.io/kubernetesdemo:latest
+      - name: kuberdemo
+        image: containerr1.azurecr.io/kuberdemo:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
