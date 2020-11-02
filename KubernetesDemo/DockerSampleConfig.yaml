@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: kuberdemo
-        image: containerr1.azurecr.io/kuberdemo:latest
+        image: 852142dnazureacr.azurecr.io/kuberdemo:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
